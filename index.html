@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS for responsive design and pre-built styles -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to custom CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .section-heading {
+            color: #28a745; /* Matching green color */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section for the title of the portfolio -->
+    <header class="container-fluid text-center bg-success text-white py-4">
+        <h1>Sean Leahy - Personal Portfolio Website</h1>
+    </header>
+    <!-- Navigation bar using Bootstrap classes for styling and responsiveness -->
+    <nav class="container-fluid">
+        <ul class="nav justify-content-center bg-dark">
+            <li class="nav-item"><a class="nav-link text-white" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#experiences">Experiences</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#more">Hobbies & Interests</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#reflection">Reflection & Future Plans</a></li>
+        </ul>
+    </nav>
+    <!-- About Me section with a brief introduction -->
+    <section id="about" class="container my-4 p-4 bg-white shadow rounded">
+        <h2 class="section-heading">About Me</h2>
+        <p>I am a first year Music, Media and Performance Technology (MMPT)</p>
+        <p>I chose Music, Media, and Performance Technology
+            because it combines my love for music and sound
+             with my interest in technology. This course 
+             allows me to explore how people interact with
+              sound and how technology can enhance those
+               experiences.</p>
+        
+    </section>
+    <!-- Skills section to highlight technical skills -->
+    <section id="skills" class="container my-4 p-4 bg-white shadow rounded">
+        <h2 class="section-heading">Skills</h2>
+        <!-- Table to display technical skills -->
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Experience Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Basic HTML & CSS</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>PA System Setup and Operation</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Processing</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>Adobe Photoshop</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Adobe Illustrator</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Premiere Pro</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Ableton Live</td>
+                    <td>Beginner</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- Experiences section to highlight favorite projects and inspirations -->
+    <section id="experiences" class="container my-4 p-4 bg-white shadow rounded">
+        <h2 class="section-heading">Experiences</h2>
+        
+        <!-- Subsection for Work Experience -->
+        <h3>Work Experience</h3>
+        <ul>
+            <li><strong>Ongoing - Part-time:</strong> Photo Station, Thurles, Co. Tipperary - Selling prints to customers, printing photos, and making photo frames.</li>
+            <li><strong>March/April 2024:</strong> Billboard Advertising Ltd., Quormi, Malta - Graphic design intern on Erasmus+ Program, creating billboard adverts.</li>
+            <li><strong>February 2024:</strong> Fast-track to IT (fit.ie) - Work placement for Level 5. Logo design as part of a graphic design group project.</li>
+            <li><strong>July 2023:</strong> Sound to Light Galway - Set up sound and video equipment for live events.</li>
+        </ul>
+        <!-- Subsection for Achievements -->
+        <h3>Achievements</h3>
+        <ul>
+            <li>Current Irish Driver's License</li>
+            <li>Erasmus+ Placement for 3 weeks in Malta 2024</li>
+            <li>Student Council Member (2020 - 2021)</li>
+        </ul>
+    </section>
+    <!-- More About Me section for additional personal information -->
+    <section id="more" class="container my-4 p-4 bg-white shadow rounded">
+        <h2 class="section-heading">Hobbies & Interests</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li>Sports</li>
+                    <li>Cinematography</li>
+                    <li>Photography</li>
+                    <li>Technology</li>
+                    <li>Music</li>
+                    <li>German Language</li>
+                    <li>Travel</li>
+                    <li>History</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <p>
+                      Music has been a passion
+                       of mine for years, and I love exploring new genres
+                        and sound design. I'm particularly interested in 
+                        audio engineering, sound design, and live
+                         performance technology. My time working in Galway 
+                         with Sound-To-Light helped me find my joy for 
+                         audio-visual setups and electronics. I also enjoy 
+                        cinematography & photography and learning how movies are made.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Reflection & Future Plans section for personal reflections and future aspirations -->
+    <section id="reflection" class="container my-4 p-4 bg-white shadow rounded">
+        <h2 class="section-heading">Reflection & Future Plans</h2>
+        <p>I think the prorfolio is a good representation of my abilities in web development so far.</p>
+        <p>In the future, I’d like to add a portfolio section featuring my projects and maybe a more dynamic page with more animated elements page with where I can share updates on my experiments and learnings.</p>
+        <p>With further web development skills, I’d love to incorporate interactive elements like audio samples of sound designs, video showcases of projects, and a contact form for networking.</p>
+    </section>
+    
+    <!-- Bootstrap JS and dependencies for interactive components -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
